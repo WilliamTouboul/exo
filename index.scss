@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
@@ -22,6 +23,7 @@ nav {
     font-family: sans-serif;
     color: #252525;
     border-bottom: 1px #e4e4e4 solid;
+    z-index: 9997;
 
     p,
     ul {
@@ -106,19 +108,19 @@ main {
             cursor: pointer;
 
             &:first-child {
-                background-image: url('img/pexels-julia-volk-5769387.jpg')
+                background-image: url('img/preview-list@xxxl.webp')
             }
 
             &:nth-child(2) {
-                background-image: url('img/pexels-olga-lioncat-7245369.jpg')
+                background-image: url('img/preview-list@xxxl\ \(1\).webp')
             }
 
             &:nth-child(3) {
-                background-image: url('img/pexels-ricardo-oliveira-14240299.jpg')
+                background-image: url('img/preview-list@xxxl.webp')
             }
 
             &:nth-child(4) {
-                background-image: url('img/pexels-said-14008899.jpg')
+                background-image: url('img/preview-list@xxxl\ \(1\).webp')
             }
 
         }
@@ -193,10 +195,10 @@ main {
     }
 
     .header {
-        background-image: url('img/pexels-julia-volk-5769387.jpg');
+        background-image: url('img/preview-list@xxxl.webp');
         background-size: cover;
         background-position: center center;
-        color: white;
+        color: #252525;
         height: 60vh;
         padding-top: 70px;
         display: flex;
